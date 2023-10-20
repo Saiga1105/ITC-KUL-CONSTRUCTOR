@@ -22,7 +22,7 @@ author: Maarten Bassier, Stan Vincke, Ville Lehtola, Florent Poux, Sander O. Elb
 navbar-links:
   TEAM: "https://saiga1105.github.io/ITC-KUL-CONSTRUCTOR/_pages/team.html"
   COMPETITIONS:
-    - 1.Alignment: <a href="#_posts/2020-02-28-Competition_1_Alignment.md">  </a> #"_posts/2020-02-28-Competition_1_Alignment.md"
+    - 1.Alignment: <a href="https://saiga1105.github.io/ITC-KUL-CONSTRUCTOR/2020-02-28-Competition_2_Reconstruction/">  </a> #"_posts/2020-02-28-Competition_1_Alignment.md"
     - 2.Reconstruction: "_posts/2020-02-28-Competition_2_Reconstruction.md"
     - 3.Progress Estimation: "_posts/2020-02-28-Competition_1_Alignment.md"
     - 4.Quality Control: "_posts/2020-02-28-Competition_1_Alignment.md"
