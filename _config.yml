@@ -28,9 +28,9 @@ navbar-links:
     - 4.Quality Control: "https://www.markdowntutorial.com/"
     - 5.Semantic Segmentation: "https://www.markdowntutorial.com/"
     - 6.Object Detection: "https://www.markdowntutorial.com/"
-DATASETS: "https://deanattali.com"
-  #   - ITC: "https://beautifuljekyll.com"
-  #   - KUL: "https://www.markdowntutorial.com/"
+  DATASETS: "https://deanattali.com"
+    - ITC: "https://beautifuljekyll.com"
+    - KUL: "https://www.markdowntutorial.com/"
 
 ################
 # --- Logo --- #
