@@ -20,17 +20,17 @@ author: Maarten Bassier, Stan Vincke, Ville Lehtola, Florent Poux, Sander O. Elb
 ###############################################
 
 navbar-links:
-  TEAM: "_pages/team.html"
+  TEAM: "/_pages/team.html"
   COMPETITIONS:
-    - 1.Alignment: "_posts/2020-02-28-Competition_1_Alignment.md"
-    - 2.Reconstruction: "_posts/2020-02-28-Competition_2_Reconstruction.md"
-    - 3.Progress Estimation: "_posts/2020-02-28-Competition_1_Alignment.md"
-    - 4.Quality Control: "_posts/2020-02-28-Competition_1_Alignment.md"
-    - 5.Semantic Segmentation: "_posts/2020-02-28-Competition_1_Alignment.md"
-    - 6.Object Detection: "_posts/2020-02-28-Competition_1_Alignment.md" #"https://www.markdowntutorial.com/"
+    - 1.Alignment: "/_posts/2020-02-28-Competition_1_Alignment.md"
+    - 2.Reconstruction: "/_posts/2020-02-28-Competition_2_Reconstruction.md"
+    - 3.Progress Estimation: "/_posts/2020-02-28-Competition_1_Alignment.md"
+    - 4.Quality Control: "/_posts/2020-02-28-Competition_1_Alignment.md"
+    - 5.Semantic Segmentation: "/_posts/2020-02-28-Competition_1_Alignment.md"
+    - 6.Object Detection: "/_posts/2020-02-28-Competition_1_Alignment.md" #"https://www.markdowntutorial.com/"
   DATASETS: 
-    - ITC: "_pages/ITC.html"
-    - KUL: "_pages/KUL.html"
+    - ITC: "/_pages/ITC.html"
+    - KUL: "/_pages/KUL.html"
 
 ################
 # --- Logo --- #
