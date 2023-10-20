@@ -10,17 +10,17 @@
 ############################
 
 # Name of website
-title: My Website
+title: ITC-KUL-CONSTRUCTOR
 
 # Your name to show in the footer
-author: Some Person
+author: Maarten Bassier, Stan Vincke, Ville Lehtola, Florent Poux, Sander O. Elberink, Bashar Alsadik
 
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
+  TEAM: "TEAM"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
