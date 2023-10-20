@@ -8,7 +8,7 @@ share-img:
 tags:
 ---
 
-<div style="text-align: justify"> Did you know only 65% of the imagery on a Construction site gets aligned using commercial software? This is not so surprising if you know the many obstacles [**Structure-from-Motion**](https://en.wikipedia.org/wiki/Structure_from_motion) have to overcome to allign the imagery below.</div>
+Did you know only 65% of the imagery on a Construction site gets aligned using commercial software? This is not so surprising if you know the many obstacles [**Structure-from-Motion**](https://en.wikipedia.org/wiki/Structure_from_motion) have to overcome to allign the imagery below.
 
 
 
