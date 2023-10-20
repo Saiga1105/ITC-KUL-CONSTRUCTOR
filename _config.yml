@@ -22,9 +22,13 @@ author: Maarten Bassier, Stan Vincke, Ville Lehtola, Florent Poux, Sander O. Elb
 navbar-links:
   TEAM: "TEAM"
   COMPETITIONS:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  # DATASETS: "https://deanattali.com"
+    - 1.Alignment: "_/posts/2020-02-28-Competition_1_Alignment.md"
+    - 2.Reconstruction: "https://www.markdowntutorial.com/"
+    - 3.Progress Estimation: "https://www.markdowntutorial.com/"
+    - 4.Quality Control: "https://www.markdowntutorial.com/"
+    - 5.Semantic Segmentation: "https://www.markdowntutorial.com/"
+    - 6.Object Detection: "https://www.markdowntutorial.com/"
+DATASETS: "https://deanattali.com"
   #   - ITC: "https://beautifuljekyll.com"
   #   - KUL: "https://www.markdowntutorial.com/"
 
@@ -34,10 +38,10 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "assets/img/11.PNG"
+# avatar: "assets/img/11.PNG"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
-round-avatar: true
+# round-avatar: false
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
