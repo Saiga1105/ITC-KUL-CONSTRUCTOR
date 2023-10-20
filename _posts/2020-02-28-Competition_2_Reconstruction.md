@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Competition 1: Alignment Accuracy
+title: Competition 2: Reconstruction Accuracy
 subtitle: 
 cover-img: /assets/img/photogr2.PNG
 thumbnail-img: /assets/img/29.PNG
