@@ -20,17 +20,17 @@ author: Maarten Bassier, Stan Vincke, Ville Lehtola, Florent Poux, Sander O. Elb
 ###############################################
 
 navbar-links:
-  TEAM: "https://saiga1105.github.io/ITC-KUL-CONSTRUCTOR/_pages/team.html"
+  TEAM: "https://saiga1105.github.io/ITC-KUL-CONSTRUCTOR/_pages/team/"
   COMPETITIONS:
-    - 1.Alignment: "https://saiga1105.github.io/ITC-KUL-CONSTRUCTOR/2020-02-28-Competition_2_Reconstruction/" #"_posts/2020-02-28-Competition_1_Alignment.md"
-    - 2.Reconstruction: "_posts/2020-02-28-Competition_2_Reconstruction.md"
-    - 3.Progress Estimation: "_posts/2020-02-28-Competition_1_Alignment.md"
-    - 4.Quality Control: "_posts/2020-02-28-Competition_1_Alignment.md"
-    - 5.Semantic Segmentation: "_posts/2020-02-28-Competition_1_Alignment.md"
-    - 6.Object Detection: "_posts/2020-02-28-Competition_1_Alignment.md" #"https://www.markdowntutorial.com/"
+    - 1.Alignment: "https://saiga1105.github.io/ITC-KUL-CONSTRUCTOR/2020-02-28-Competition_1_Alignment/" #"_posts/2020-02-28-Competition_1_Alignment.md"
+    - 2.Reconstruction: "https://saiga1105.github.io/ITC-KUL-CONSTRUCTOR/2020-02-28-Competition_2_Reconstruction/"
+    - 3.Progress Estimation: "https://saiga1105.github.io/ITC-KUL-CONSTRUCTOR/2020-02-28-Competition_2_Reconstruction/"
+    - 4.Quality Control: "https://saiga1105.github.io/ITC-KUL-CONSTRUCTOR/2020-02-28-Competition_2_Reconstruction/"
+    - 5.Semantic Segmentation: "https://saiga1105.github.io/ITC-KUL-CONSTRUCTOR/2020-02-28-Competition_2_Reconstruction/"
+    - 6.Object Detection: "https://saiga1105.github.io/ITC-KUL-CONSTRUCTOR/2020-02-28-Competition_2_Reconstruction/"
   DATASETS: 
-    - ITC: "_pages/ITC.html"
-    - KUL: "_pages/KUL.html"
+    - ITC: "https://saiga1105.github.io/ITC-KUL-CONSTRUCTOR/_pages/team/"
+    - KUL: "https://saiga1105.github.io/ITC-KUL-CONSTRUCTOR/_pages/team/"
 
 ################
 # --- Logo --- #
