@@ -20,7 +20,7 @@ author: Maarten Bassier, Stan Vincke, Ville Lehtola, Florent Poux, Sander O. Elb
 ###############################################
 
 navbar-links:
-  TEAM: "TEAM"
+  TEAM: "_pages/team.html"
   COMPETITIONS:
     - 1.Alignment: "_/posts/2020-02-28-Competition_1_Alignment.md"
     - 2.Reconstruction: "https://www.markdowntutorial.com/"
@@ -28,7 +28,7 @@ navbar-links:
     - 4.Quality Control: "https://www.markdowntutorial.com/"
     - 5.Semantic Segmentation: "https://www.markdowntutorial.com/"
     - 6.Object Detection: "https://www.markdowntutorial.com/"
-  DATASETS: "https://deanattali.com"
+  DATASETS: 
     - ITC: "https://beautifuljekyll.com"
     - KUL: "https://www.markdowntutorial.com/"
 
