@@ -24,9 +24,9 @@ navbar-links:
   COMPETITIONS:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
-  DATASETS: "https://deanattali.com"
-    - ITC: "https://beautifuljekyll.com"
-    - KUL: "https://www.markdowntutorial.com/"
+  # DATASETS: "https://deanattali.com"
+  #   - ITC: "https://beautifuljekyll.com"
+  #   - KUL: "https://www.markdowntutorial.com/"
 
 ################
 # --- Logo --- #
