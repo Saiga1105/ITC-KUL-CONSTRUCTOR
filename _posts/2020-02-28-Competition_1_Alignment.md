@@ -8,13 +8,13 @@ share-img:
 tags:
 ---
 
-Did you know only 65% of the imagery on a Construction site gets aligned using commercial software? This is not so surprising if you know the many obstacles [**Structure-from-Motion**](https://en.wikipedia.org/wiki/Structure_from_motion) have to overcome to allign the imagery below.
+Did you know we were only able to align 65% of the imagery on the Construction sites using commercial software ([MetaShape](https://www.agisoft.com/) and [RealityCapture](https://www.capturingreality.com/))? This is not so surprising if you know the many obstacles [**Structure-from-Motion**](https://en.wikipedia.org/wiki/Structure_from_motion) have to overcome to allign the imagery below.
 
-![37.PNG](assets/img/37.PNG)
+![37.PNG](../assets/img/37.PNG)
 
 In this competition, we want to spark innovation for more robust alignment procedures. This includes both the interior and exterior camera parameters. As an example, you can take a look at what information is stored from a software like [RealityCapture](https://www.capturingreality.com/)
 
-![38.PNG](assets/img/38.PNG)
+![38.PNG](../assets/img/38.PNG)
 
 Given these parameters, we can accurately position the camera sensors in the construction cordinate system. Using the [GEOMAPI](https://https://geomatics.pages.gitlab.kuleuven.be/research-projects/geomapi/) API, we can easily import some imagery and point clouds (take a look at our website for more examples).
 
@@ -36,7 +36,7 @@ joinedImages=gmu.join_geometries([gmu.generate_visual_cone_from_image(n.cartesia
 o3d.visualization.draw_geometries([joinedImages]+[pcdNode.resource])
 ```
 
-Now the [COMPETITION](https://paperswithcode.com/datasets) is to align as many of the resources as possible. All you have to do is report your percentage of properly aligned imagery.
+Now the [COMPETITION](https://paperswithcode.com/datasets) is to align as many of the resources as possible. All you have to do is report your percentage of properly aligned imagery on the complete dataset.
 
-![38.PNG](assets/img/38.PNG)
+![2.PNG](../assets/img/2.PNG)
 
