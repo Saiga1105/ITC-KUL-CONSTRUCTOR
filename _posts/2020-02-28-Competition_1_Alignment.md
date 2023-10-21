@@ -10,21 +10,29 @@ tags:
 
 Did you know only 65% of the imagery on a Construction site gets aligned using commercial software? This is not so surprising if you know the many obstacles [**Structure-from-Motion**](https://en.wikipedia.org/wiki/Structure_from_motion) have to overcome to allign the imagery below.
 
-![1697814064873.png](./1697814064873.png)
+![37.PNG](./assets/img/37.PNG)
 
 In this competition, we want to spark innovation for more robust alignment procedures. This includes both the interior and exterior camera parameters. As an example, you can take a look at what information is stored from a software like [RealityCapture](https://www.capturingreality.com/)
 
-![1697814881381.png](./1697814881381.png)
+![38.PNG](./assets/img/38.PNG)
 
-Given these parameters, we can accurately position the camera sensors in the construction cordinate system. Using the [GEOMAPI ](https://)API
-
-```
+Given these parameters, we can accurately position the camera sensors in the construction cordinate system. Using the [GEOMAPI](https://https://geomatics.pages.gitlab.kuleuven.be/research-projects/geomapi/) API, we can easily import some imagery and point clouds (take a look at our website for more examples).
 
 ```
+import geomapi
+from geomapi import tools as tl
+from geomapi.utils import geometryutils as gmu
 
-If we then also undistort the imagery, we can ray
+imgNodes=tl.xml_to_nodes(path_to_metashape_xml)
 
-At the heart of the struggle are two very different ideas of success—survival-driven and soul-driven. For survivalists, success is security, pragmatism, power over others. Success is the absence of material suffering, the nourishing of the soul be damned. It is an odd and ironic thing that most of the material power in our world often resides in the hands of younger souls. Still working in the egoic and material realms, they love the sensations of power and focus most of their energy on accumulation. Older souls tend not to be as materially driven. They have already played the worldly game in previous lives and they search for more subtle shades of meaning in this one—authentication rather than accumulation. They are often ignored by the culture at large, although they really are the truest warriors.
+las= laspy.read(las_path)
+pcdNode=PointCloudNode(name='myPointCloud', resource=gmu.las_to_pcd(las))
+```
 
-A soulful notion of success rests on the actualization of our innate image. Success is simply the completion of a soul step, however unsightly it may be. We have finished what we started when the lesson is learned. What a fear-based culture calls a wonderful opportunity may be fruitless and misguided for the soul. Staying in a passionless relationship may satisfy our need for comfort, but it may stifle the soul. Becoming a famous lawyer is only worthwhile if the soul demands it. It is an essential failure if you are called to be a monastic this time around. If you need to explore and abandon ten careers in order to stretch your soul toward its innate image, then so be it. Flake it till you make it.
+And we can visualize these resources using Open3D and some placeholder geometries for the imagery. Note that merging geometries before sending them to the visualizer significantly speeds up the rendering.
+
+```
+joinedImages=gmu.join_geometries([gmu.generate_visual_cone_from_image(n.cartesianTransform, height =1).paint_uniform_color([1,0,0]) for n in imgNodes])
+o3d.visualization.draw_geometries([joinedImages]+[pcdNode.resource])
+```
 
