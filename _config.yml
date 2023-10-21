@@ -29,8 +29,8 @@ navbar-links:
     - 5.Semantic Segmentation: "https://saiga1105.github.io/ITC-KUL-CONSTRUCTOR/2020-02-28-Competition_2_Reconstruction/"
     - 6.Object Detection: "https://saiga1105.github.io/ITC-KUL-CONSTRUCTOR/2020-02-28-Competition_2_Reconstruction/"
   DATASETS: 
-    - ITC: "https://saiga1105.github.io/ITC-KUL-CONSTRUCTOR/ITC/"
-    - KUL: "https://saiga1105.github.io/ITC-KUL-CONSTRUCTOR/KUL/"
+    - ITC: "https://saiga1105.github.io/ITC-KUL-CONSTRUCTOR/2020-02-28-KUL/"
+    - KUL: "https://saiga1105.github.io/ITC-KUL-CONSTRUCTOR/2020-02-28-KUL/"
 
 ################
 # --- Logo --- #
