@@ -20,7 +20,7 @@ author: Maarten Bassier, Stan Vincke, Ville Lehtola, Florent Poux, Sander O. Elb
 ###############################################
 
 navbar-links:
-  TEAM: "https://saiga1105.github.io/ITC-KUL-CONSTRUCTOR/_pages/team/"
+  TEAM: "https://saiga1105.github.io/ITC-KUL-CONSTRUCTOR/team/"
   COMPETITIONS:
     - 1.Alignment: "https://saiga1105.github.io/ITC-KUL-CONSTRUCTOR/2020-02-28-Competition_1_Alignment/" #"_posts/2020-02-28-Competition_1_Alignment.md"
     - 2.Reconstruction: "https://saiga1105.github.io/ITC-KUL-CONSTRUCTOR/2020-02-28-Competition_2_Reconstruction/"
@@ -29,8 +29,8 @@ navbar-links:
     - 5.Semantic Segmentation: "https://saiga1105.github.io/ITC-KUL-CONSTRUCTOR/2020-02-28-Competition_2_Reconstruction/"
     - 6.Object Detection: "https://saiga1105.github.io/ITC-KUL-CONSTRUCTOR/2020-02-28-Competition_2_Reconstruction/"
   DATASETS: 
-    - ITC: "https://saiga1105.github.io/ITC-KUL-CONSTRUCTOR/_pages/team/"
-    - KUL: "https://saiga1105.github.io/ITC-KUL-CONSTRUCTOR/_pages/team/"
+    - ITC: "https://saiga1105.github.io/ITC-KUL-CONSTRUCTOR/ITC/"
+    - KUL: "https://saiga1105.github.io/ITC-KUL-CONSTRUCTOR/KUL/"
 
 ################
 # --- Logo --- #
