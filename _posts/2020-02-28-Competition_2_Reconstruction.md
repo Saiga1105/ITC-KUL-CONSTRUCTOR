@@ -2,8 +2,8 @@
 layout: post
 title: Reconstruction Accuracy Competition
 subtitle: 
-cover-img: /assets/img/48.PNG
-thumbnail-img: /assets/img/48.PNG
+cover-img: /assets/img/48.png
+thumbnail-img: /assets/img/48.png
 share-img: 
 tags:
 ---
